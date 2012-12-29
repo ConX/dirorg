@@ -3,7 +3,7 @@ Description
 
 This script organizes the files of a directory by grouping
 them based on their extension. It can also group
-directories by identifing which extension they mostly contain.
+directories by identifying which extension they mostly contain.
 
 
 Help
@@ -15,7 +15,7 @@ Options:
 
   -h, --help       show this help message and exit
   -b, --batch      Run without asking for directory creation.
-  -v, --verbose    Print debug messages for every action.
+  -v, --verbose    Print messages for every action taken.
   -d, --directory  Recursively determine the content of the directories and
                    group them properly.
   --dry-run        Simulate execution.
@@ -59,4 +59,8 @@ Examples
 $ dirorg.py foo/ bar/
 ```
 
-**
+**Same as previous example but now print messages for the actions taken.**
+
+```sh
+$ dirorg.py -v foo/ bar/
+```

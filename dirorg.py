@@ -108,7 +108,7 @@ if __name__ == "__main__":
      usage = "Usage: %prog [options] <Source Directory> [Destination Directory]"
      parser = OptionParser(usage)
      parser.add_option("-b", "--batch", action="store_true", default=False, dest="batch", help="Run without asking for directory creation.")
-     parser.add_option("-v", "--verbose", action="store_true", default=False, dest="verbose", help="Print debug messages for every action.")
+     parser.add_option("-v", "--verbose", action="store_true", default=False, dest="verbose", help="Print messages for every action taken.")
      parser.add_option("-d", "--directory", action="store_true", default=False, dest="directory", help="Recursively determine the content of the directories and group them properly.")
      parser.add_option("--dry-run", action="store_true", default=False, dest="dryrun", help="Simulate execution.")
      parser.add_option("--hidden", action="store_true", default=False, dest="hidden", help="Work on hidden files too.")
